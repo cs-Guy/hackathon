@@ -1,0 +1,48 @@
+body{
+    background-color: #b5fafae8;
+}
+h1{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+legend{
+    /* text-align: center; */
+    font-size: 30px;
+    color: steelblue;
+}
+fieldset{
+    margin:auto;
+    background-color: white;
+    font-size:14px;
+    font-family:verdana;
+    padding:20px;
+    width:600px;
+    line-height:1.2;
+}
+.button1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 175px;
+    cursor: pointer;
+}
+.button2 {
+    background-color: rgb(255, 4, 4);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+a{
+    color: red;
+}
