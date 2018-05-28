@@ -1,8 +1,23 @@
+<?php
+$servername = "ggeasyprogramming.hackathon.ilab.sit.kmutt.ac.th";
+$username = "hack";
+$password = "12345";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+echo "Connected successfully";
+?> 
+
 <!DOCTYPE html>
 <html>
     <head>
         <title>Register Form</title>
-        <link rel="stylesheet" type="text/css" href="../css/regisstyle.css">
+        <link rel="stylesheet" type="text/css" href="regisstyle.css">
         </head>
     <body>
             <center><h1>Registration</h1></center>
